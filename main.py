@@ -20,7 +20,7 @@ def gcd(n1, n2):
         
     return lowest
 
-# Formula: (n1 * n2)/GCD(n1, n2)
+# Formula: (n1 * n2) / GCD(n1, n2)
 def lcm(n1, n2):
     return int((n1*n2)/gcd(n1, n2))
 
